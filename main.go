@@ -36,4 +36,4 @@ func CountUniqueChar(Str string) {
 }
 
 // Buat function untuk hitung jumlah masing-masing karakter unik yang berurutan dari sebuah string.Fn Name : CountUniqueChar(input)Input  : StringOutput  : []map[string]int
-// Contoh : Input  : “aaasssiia”output  : [[“a”: 4], [“s”: 3], [“i”: 2]]
+// Contoh : Input  : “aaasssiia”output  : a: 4, s: 3, i: 2
