@@ -32,3 +32,18 @@ func CountUniqueChar(Str string) {
 
 // Buat function untuk hitung jumlah masing-masing karakter unik yang berurutan dari sebuah string.Fn Name : CountUniqueChar(input)Input  : StringOutput  : []map[string]int
 // Contoh : Input  : “aaasssiia”output  : a: 4, s: 3, i: 2
+
+func SimpleFunction(str string) {
+	strs := map[string]int{}
+
+	for _, v := range strings.Split(str, "") {
+		if strs[v] == 0 {
+			strs[v]++
+		} else {
+			strs[v] += 1
+		}
+	}
+
+	fmt.Println(strs)
+}
+// Output : map[a:8 b:3 e:1 f:4]
